@@ -144,5 +144,34 @@ header {
 
     padding-top: 1rem;
     font-size: 12px;
+}
+
+#itstime {
+    height: 20rem;
     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#itstime #mainbox {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #3882f6;
+    color: #f9faf8;
+    height: 10rem;
+    width: 80%;
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+#itstime #mainbox .right button {
+    margin-top: 1rem;
+    background-color: #3882f6;
+    font-size: 18px;
+    padding: 0.5rem 2rem;
+    color: #f9faf8;
+    border-radius: 0.5rem;
+    border-color: #f9faf8;
+    border-width: 2px;
 }
