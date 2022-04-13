@@ -175,3 +175,12 @@ header {
     border-color: #f9faf8;
     border-width: 2px;
 }
+
+footer {
+    background-color: #1f2937;
+    text-align: center;
+    height: 9.5rem;
+    color: #e5e7eb;
+    font-size: 1.5rem;
+    padding-top: 4rem;
+}
