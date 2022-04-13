@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    font-family: 'Roboto', monoserif;
+    box-sizing: border-box;
+}
+
+header {
+    color: #f9faf8;
+    background-color: #1f2937;
+    height: 30rem;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 2rem;
+
+}
+
+#navbar h2 {
+    font-size: 24px;
+}
+
+#navbar ul li {
+    list-style-type: none;
+}
+
+#navbar ul li a {
+    text-decoration: none;
+    color: #f9faf8;
+    padding: 1rem 1rem;
+    margin-top: 2rem;
+    font-size: 18px;
+}
+
+#navbar ul {
+    display: flex;
+    align-items: center;
+    margin-top: 0;
+    justify-content: right;
+}
+
+#main #leftmain {
+    padding: 4rem 3rem;
+    height: 20rem;
+}
+
+#main #leftmain h1 {
+    font-size: 48px;
+}
+
+#main #leftmain p {
+    padding-top: 1rem;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+#main #leftmain button {
+    margin-top: 1rem;
+    background-color: #3882f6;
+    font-size: 18px;
+    padding: 0.5rem 2rem;
+    color: #f9faf8;
+    border-radius: 0.5rem;
+    border-color: none;
+    border-width: 0;
+}
+
+#main #leftmain button:hover {
+    background-color: #f9faf8;
+    color: #3882f6;
+}
+
+#main #rightmain {
+    color: #f9faf8;
+    height: 10rem;
+    border-radius: 0.3rem;
+    background-color: slategray;
+    display: flex;
+    align-items: center;
+    margin-top: 6rem;
+    padding: 0 4rem;
+}
+
+#main {
+    display: flex;
+    justify-content: space-around;
+    padding: 3rem 0rem;
+}
+
+#infosec {
+    height: 30rem;
+}
+
+#infosec h2 {
+    color: #1f2937;
+    text-align: center;
+    padding-top: 2rem;
+    font-size: 36px;
+}
+
+#boxes {
+    display: flex;
+    justify-content: center;
+}
+
+#boxes .box {
+    margin: 2rem 2rem;
+    margin-bottom: 0;
+    border: 5px solid #3882f6;
+    border-radius: 10%;
+    width: 12rem;
+    height: 12rem;
+
+}
+
+#subt {
+    display: flex;
+    justify-content: center;
+}
+
+#subt .sub {
+    margin: 1rem 2rem;
+    width: 12rem;
+    height: 12rem;
+    color: #1f2937;
+    opacity: 0.7;
+    text-align: center;
+    font-size: 18px;
+}
